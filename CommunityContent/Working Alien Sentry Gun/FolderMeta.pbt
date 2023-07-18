@@ -1,0 +1,87 @@
+MetaVersion: 1
+MarketplaceDetails {
+  Id: "4cb82f6d05cf48a28388e9b50a44ceee"
+  OwnerAccountId: "645c7ed91e35417a845249da3c9ff0e1"
+  OwnerName: "SloopDR"
+  Version: "1.0.0"
+}
+AssetIdsOriginalToNew {
+  key: 1610921631540064361
+  value: 12938510006973572635
+}
+AssetIdsOriginalToNew {
+  key: 1612987911484264486
+  value: 10317525383633040147
+}
+AssetIdsOriginalToNew {
+  key: 2116132762918290128
+  value: 15917474671977654499
+}
+AssetIdsOriginalToNew {
+  key: 2964478298088243082
+  value: 5257589553540386783
+}
+AssetIdsOriginalToNew {
+  key: 3627104901573337012
+  value: 16960035472286620761
+}
+AssetIdsOriginalToNew {
+  key: 3846759148570217929
+  value: 11656963338288131447
+}
+AssetIdsOriginalToNew {
+  key: 4925309668325886667
+  value: 14141824707182582377
+}
+AssetIdsOriginalToNew {
+  key: 5070863978728479236
+  value: 2063291066238268978
+}
+AssetIdsOriginalToNew {
+  key: 5187476310095981774
+  value: 16665762644058289791
+}
+AssetIdsOriginalToNew {
+  key: 6181535863098808780
+  value: 6712814771877431409
+}
+AssetIdsOriginalToNew {
+  key: 6655599079706459186
+  value: 7103432705704958328
+}
+AssetIdsOriginalToNew {
+  key: 8774817121742395289
+  value: 4686624602753741047
+}
+AssetIdsOriginalToNew {
+  key: 9123806273619472820
+  value: 13439439986301662846
+}
+AssetIdsOriginalToNew {
+  key: 9415640141090477402
+  value: 9374680883980101348
+}
+AssetIdsOriginalToNew {
+  key: 9893555221372529986
+  value: 460918340249260567
+}
+AssetIdsOriginalToNew {
+  key: 12604426121760895662
+  value: 3621930782697345057
+}
+AssetIdsOriginalToNew {
+  key: 15334354510796595800
+  value: 4795938458638922544
+}
+AssetIdsOriginalToNew {
+  key: 16342014093847624300
+  value: 7838449936588016511
+}
+AssetIdsOriginalToNew {
+  key: 16992699579299818517
+  value: 12156108349592241355
+}
+AssetIdsOriginalToNew {
+  key: 17666672374141619846
+  value: 9798921141168020701
+}

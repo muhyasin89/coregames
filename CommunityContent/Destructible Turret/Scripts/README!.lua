@@ -1,0 +1,5 @@
+---Detach "Spellshock things" folder that is attached to this readme and place it anywhere in your Hierarchy
+---This turret cannot be destroyed by anything that doesnt have the "Destructable_WeaponComponent" attached to it
+---The "Destructable_WeaponComponent" is attached to the Fire Staff provided by this template. 
+---You should be able to drag the "Destructable_WeaponComponent" on to any WeaponComponent
+---The firescript located in the Turret group contains some useful custom properties!
