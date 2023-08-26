@@ -20,9 +20,7 @@ Objects {
   ChildIds: 16813558807825262224
   ChildIds: 10005074784157121906
   ChildIds: 14982843161775482339
-  ChildIds: 6749650681790971497
   ChildIds: 4396517717391211458
-  ChildIds: 7424449018220999547
   ChildIds: 2642291225314272474
   ChildIds: 17587607150693958918
   ChildIds: 17017228211026592694
@@ -31,6 +29,7 @@ Objects {
   ChildIds: 2669208217813457442
   ChildIds: 12130496042292708042
   ChildIds: 2808772884529921644
+  ChildIds: 13135736488023566445
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -48,6 +47,47 @@ Objects {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 13135736488023566445
+  Name: "Rocket_Turret"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6720574775561466831
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Rocket_Turret"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1950
+            Y: -1700
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.5
+            Y: 0.5
+            Z: 0.5
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 15215918103706005424
+    }
+  }
 }
 Objects {
   Id: 2808772884529921644
@@ -334,39 +374,6 @@ Objects {
   }
 }
 Objects {
-  Id: 7424449018220999547
-  Name: "Ambush Camp Example"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 11087910991482916188
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Ambush Camp Example"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -1400
-            Y: 850
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 9064555311786150826
-    }
-  }
-}
-Objects {
   Id: 4396517717391211458
   Name: "Turret"
   Transform {
@@ -447,40 +454,6 @@ Objects {
     }
     TemplateAsset {
       Id: 16973450964834751141
-    }
-  }
-}
-Objects {
-  Id: 6749650681790971497
-  Name: "Advanced Car -Motorcycle Black/White"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  WantsNetworking: true
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 3856394896678411222
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Advanced Car -Motorcycle Black/White"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 400
-            Y: -800
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 1602564493661209459
     }
   }
 }
