@@ -41,8 +41,7 @@ function OnBeginOverlap(whichTrigger, other)
 				data.multiplier = moneytwo
 				--Sets the playerData
 				Storage.SetPlayerData(player, data)
-				--Gets the playerStore object
-				local PlayerResourceObject = World.FindObjectByName(string.format("PlayerStoreObject" .. player.name))
+				
 				--Sets everything here as well(So it can be accessed by Client)
 				PlayerResourceObject:SetNetworkedCustomProperty("Money", moneyone)
 				PlayerResourceObject:SetNetworkedCustomProperty("Moneymult", moneytwo)

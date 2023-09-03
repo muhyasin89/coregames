@@ -18,10 +18,6 @@ Objects {
   ChildIds: 16813558807825262224
   ChildIds: 10005074784157121906
   ChildIds: 14982843161775482339
-  ChildIds: 627040715789399819
-  ChildIds: 10844438990070081392
-  ChildIds: 7113158328960891953
-  ChildIds: 8099159765106680602
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -41,142 +37,6 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8099159765106680602
-  Name: "3d map mode"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 9742538618964671386
-      value {
-        Overrides {
-          Name: "Name"
-          String: "3d map mode"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -1450
-            Y: -1600
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 4409866985408295955
-    }
-  }
-}
-Objects {
-  Id: 7113158328960891953
-  Name: "Example Tycoon"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 724706915146242934
-      value {
-        Overrides {
-          Name: "Text"
-          String: "Ore Upgrader(10000)"
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 16073731384798380926
-      value {
-        Overrides {
-          Name: "cs:cost"
-          Int: 10000
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 16479312694897357159
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Example Tycoon"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -800
-            Y: -1600
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 10872187722946472827
-    }
-  }
-}
-Objects {
-  Id: 10844438990070081392
-  Name: "Server Scripts"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 3565315281057478538
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Server Scripts"
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 11632772040765138676
-    }
-  }
-}
-Objects {
-  Id: 627040715789399819
-  Name: "UI"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 2989719042993936837
-      value {
-        Overrides {
-          Name: "Name"
-          String: "UI"
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 3995153499955547041
-    }
-  }
-}
-Objects {
   Id: 14982843161775482339
   Name: "Default Floor"
   Transform {
@@ -186,8 +46,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 200
-      Y: 200
+      X: 50
+      Y: 50
       Z: 1
     }
   }

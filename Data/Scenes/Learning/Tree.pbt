@@ -18,10 +18,8 @@ Objects {
   ChildIds: 16813558807825262224
   ChildIds: 10005074784157121906
   ChildIds: 14982843161775482339
-  ChildIds: 627040715789399819
-  ChildIds: 10844438990070081392
-  ChildIds: 7113158328960891953
-  ChildIds: 8099159765106680602
+  ChildIds: 17272056928345275515
+  ChildIds: 6461024530501587785
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -41,9 +39,13 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8099159765106680602
-  Name: "3d map mode"
+  Id: 6461024530501587785
+  Name: "APIShowcase"
   Transform {
+    Location {
+    }
+    Rotation {
+    }
     Scale {
       X: 1
       Y: 1
@@ -51,32 +53,36 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 9742538618964671386
-      value {
-        Overrides {
-          Name: "Name"
-          String: "3d map mode"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -1450
-            Y: -1600
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 4409866985408295955
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 12632343371988535034
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7113158328960891953
-  Name: "Example Tycoon"
+  Id: 17272056928345275515
+  Name: "GlobalUtilLib"
   Transform {
+    Location {
+    }
+    Rotation {
+    }
     Scale {
       X: 1
       Y: 1
@@ -84,97 +90,27 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 724706915146242934
-      value {
-        Overrides {
-          Name: "Text"
-          String: "Ore Upgrader(10000)"
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 16073731384798380926
-      value {
-        Overrides {
-          Name: "cs:cost"
-          Int: 10000
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 16479312694897357159
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Example Tycoon"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -800
-            Y: -1600
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 10872187722946472827
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 1515712731825897247
     }
   }
-}
-Objects {
-  Id: 10844438990070081392
-  Name: "Server Scripts"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 3565315281057478538
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Server Scripts"
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 11632772040765138676
-    }
-  }
-}
-Objects {
-  Id: 627040715789399819
-  Name: "UI"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 2989719042993936837
-      value {
-        Overrides {
-          Name: "Name"
-          String: "UI"
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 3995153499955547041
-    }
-  }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 14982843161775482339
@@ -186,8 +122,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 200
-      Y: 200
+      X: 50
+      Y: 50
       Z: 1
     }
   }
