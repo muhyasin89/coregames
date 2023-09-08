@@ -10,6 +10,7 @@ end
 
 --When someone overlaps the trigger
 function OnBeginOverlap(whichTrigger, p)
+	print("touched trigger")
 	--If its a player
 	if p:IsA("Player") then
 		--Declares these variables as false

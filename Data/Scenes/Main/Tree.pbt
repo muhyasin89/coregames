@@ -17,11 +17,11 @@ Objects {
   ChildIds: 9086936746104183945
   ChildIds: 16813558807825262224
   ChildIds: 10005074784157121906
+  ChildIds: 2402314209126242187
   ChildIds: 14982843161775482339
   ChildIds: 627040715789399819
   ChildIds: 10844438990070081392
-  ChildIds: 7113158328960891953
-  ChildIds: 8099159765106680602
+  ChildIds: 392183899906550068
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -41,40 +41,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 8099159765106680602
-  Name: "3d map mode"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 9742538618964671386
-      value {
-        Overrides {
-          Name: "Name"
-          String: "3d map mode"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -1450
-            Y: -1600
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 4409866985408295955
-    }
-  }
-}
-Objects {
-  Id: 7113158328960891953
+  Id: 392183899906550068
   Name: "Example Tycoon"
   Transform {
     Scale {
@@ -86,24 +53,6 @@ Objects {
   ParentId: 4781671109827199097
   TemplateInstance {
     ParameterOverrideMap {
-      key: 724706915146242934
-      value {
-        Overrides {
-          Name: "Text"
-          String: "Ore Upgrader(10000)"
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 16073731384798380926
-      value {
-        Overrides {
-          Name: "cs:cost"
-          Int: 10000
-        }
-      }
-    }
-    ParameterOverrideMap {
       key: 16479312694897357159
       value {
         Overrides {
@@ -113,14 +62,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -800
-            Y: -1600
+            X: -200
+            Y: -2700
+            Z: 350
           }
         }
       }
     }
     TemplateAsset {
-      Id: 10872187722946472827
+      Id: 5536222365479955324
     }
   }
 }
@@ -181,7 +131,9 @@ Objects {
   Name: "Default Floor"
   Transform {
     Location {
-      Z: -50
+      X: 500
+      Y: -750
+      Z: 100
     }
     Rotation {
     }
@@ -225,6 +177,32 @@ Objects {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 2402314209126242187
+  Name: "Server Scripts"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 3565315281057478538
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Server Scripts"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 10710291530701509603
+    }
+  }
 }
 Objects {
   Id: 10005074784157121906

@@ -58,53 +58,20 @@ function TycoonAPI.SetClaimTycoon(tID, player)
 	_G.owners[tID] = player
 end	
 
-function TycoonAPI.ClaimTycoon(tycoon, p)
-    tID = tycoon:GetCustomProperty("ID")
-    --Declares these variables as false
-    local doesown = false
-    local isowned = false
-    --cycles through the tycoon owners
-    for k, t in pairs(_G.owners) do
-        --If the owner of the tycoon is the player who overlapped the trigger
-        if t == p then
-            --The player already owns a tycoon
-            doesown = true
-        end	
-        --If the Tycoon is this one
-        if k == tID then
-            --If there is an owner
-            if t ~= nil then
-                --The tycoon is owner
-                isowned = true
-            end	
-        end	
-    end
+function TycoonAPI.ClaimTycoon(tycoon, p, tID, owners)
+    print(tycoon .. "this is player" .. p .. "this is ID" .. tID);
+    local Result = {}
+    
 
-    --If the player who entered the trigger doesnt own a tycoon
-    if doesown == false then
-        --If the tycoon isn't owned
-        if isowned == false then
-            --Calls claim tycoon function (Check line 6)
-            TycoonAPI.SetClaimTycoon(tID, p)
-            --Broadcasts a UI message to player telling them they claimed a tycoon
-            Events.BroadcastToPlayer(p, "BannerMessage", "Succesfully Claimed Tycoon")
-            --Loads the tycoon(Check Buy Script)
-            Events.Broadcast("LoadTycoon", p, tID)
-            print ("Tycoon Claimed")
-        else
-            --Tycoon is already owned :(
-            print("Tycoon is already owned :(")
-        end	
-    else
-        --Player already owns a tycoon :(
-        print("Player already owns a tycoon :(")
-    end	
+    Result["doesown"] = doesown
+    Result["isowned"] = isowned
+    return Result
 end
 
 
 
 -- Buy Function
-function TycoonAPI.Buy(functionName, player, rtID, miner, hasNext, trigger,id, )
+function TycoonAPI.Buy(functionName, player, rtID, miner, hasNext, trigger,id)
     local Result = {}
 
     function Spawn(trigger,id, player)
@@ -303,6 +270,10 @@ end
 
 function TycoonAPI.Save()
 
+end
+
+function TycoonAPI.TestPrint(welcomeString)
+    print("Hello Tycoon ".. welcomeString);
 end
 
 

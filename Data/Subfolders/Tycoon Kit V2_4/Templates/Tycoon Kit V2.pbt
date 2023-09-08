@@ -1,0 +1,66 @@
+Assets {
+  Id: 15595372104770014167
+  Name: "Tycoon Kit V2"
+  PlatformAssetType: 5
+  TemplateAsset {
+    ObjectBlock {
+      RootId: 13781087110060844743
+      Objects {
+        Id: 13781087110060844743
+        Name: "TemplateBundleDummy"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Folder {
+          BundleDummy {
+            ReferencedAssets {
+              Id: 17421740187070068252
+            }
+            ReferencedAssets {
+              Id: 5872722620141313415
+            }
+            ReferencedAssets {
+              Id: 2763539427653038335
+            }
+            ReferencedAssets {
+              Id: 7187131332386102876
+            }
+            ReferencedAssets {
+              Id: 14289297663494175756
+            }
+            ReferencedAssets {
+              Id: 14937061772242751808
+            }
+          }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+    }
+    PrimaryAssetId {
+      AssetType: "None"
+      AssetId: "None"
+    }
+  }
+  Marketplace {
+    Id: "04271ac80b704c399eded89d73435c34"
+    OwnerAccountId: "a7fa1014cab64595bee90b0049070c8e"
+    OwnerName: "Aphrim"
+    Version: "1.1.0"
+    Description: "The succesor to the first Tycoon Kit which marked a change in the games on Core and led to some of the >25k in plays of games created with the kit, this kit is mean to further revolutonize the Tycoon Genre on Core. This kit makes it even easier to create tycoons, while adding tons of more features. Multiplayer is now as easy as duplicating the tycoon and changing the ID. With an option to make upgrades unlockable only after the prerequisate was unlockd and much more new cool stuff! No more need to create templates for everything you want to spawn!"
+  }
+  SerializationVersion: 125
+}
