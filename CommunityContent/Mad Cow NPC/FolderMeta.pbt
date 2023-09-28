@@ -1,0 +1,103 @@
+MetaVersion: 1
+MarketplaceDetails {
+  Id: "7bbd071405674e6c9f337b6060e3fa49"
+  OwnerAccountId: "f1748ac1266b4b4a81cfb4c3ba30b497"
+  OwnerName: "MrDrRobotoMan"
+  Version: "1.0.0"
+}
+AssetIdsOriginalToNew {
+  key: 604420566457674595
+  value: 16185192464352263770
+}
+AssetIdsOriginalToNew {
+  key: 949945680516231258
+  value: 1732650868155705087
+}
+AssetIdsOriginalToNew {
+  key: 984611933350804259
+  value: 10751863407914530171
+}
+AssetIdsOriginalToNew {
+  key: 1067298727093672260
+  value: 9454125761735790374
+}
+AssetIdsOriginalToNew {
+  key: 1090238298776806427
+  value: 14976064789967244464
+}
+AssetIdsOriginalToNew {
+  key: 1282012141435964860
+  value: 5740507741259786362
+}
+AssetIdsOriginalToNew {
+  key: 1567380270931055813
+  value: 3727472663453419138
+}
+AssetIdsOriginalToNew {
+  key: 2617769097222067609
+  value: 10576489597911968432
+}
+AssetIdsOriginalToNew {
+  key: 6064492669066928450
+  value: 8733553582294794919
+}
+AssetIdsOriginalToNew {
+  key: 6180902291881901673
+  value: 3397331146173679883
+}
+AssetIdsOriginalToNew {
+  key: 6768328045654011950
+  value: 14771537755211174469
+}
+AssetIdsOriginalToNew {
+  key: 8717497509090956257
+  value: 2903654916297171313
+}
+AssetIdsOriginalToNew {
+  key: 11795039212173665283
+  value: 10759539293363534597
+}
+AssetIdsOriginalToNew {
+  key: 11920179339034080901
+  value: 7245094939513716077
+}
+AssetIdsOriginalToNew {
+  key: 12360296735399940786
+  value: 6665093666677488717
+}
+AssetIdsOriginalToNew {
+  key: 12729352235432871238
+  value: 4298672920586850077
+}
+AssetIdsOriginalToNew {
+  key: 12923012097863309454
+  value: 14253704387208957213
+}
+AssetIdsOriginalToNew {
+  key: 13753931794158544584
+  value: 11480342431088896180
+}
+AssetIdsOriginalToNew {
+  key: 14289041148232293340
+  value: 12221118544982180094
+}
+AssetIdsOriginalToNew {
+  key: 14621001677521425056
+  value: 4674611671736558121
+}
+AssetIdsOriginalToNew {
+  key: 15303831300363104240
+  value: 8542102675973558866
+}
+AssetIdsOriginalToNew {
+  key: 16569432497297346101
+  value: 9566256985508697368
+}
+AssetIdsOriginalToNew {
+  key: 16740697768332572900
+  value: 759968274915611265
+}
+AssetIdsOriginalToNew {
+  key: 17234750350108125557
+  value: 7464508182774219510
+}

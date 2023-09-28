@@ -1,0 +1,67 @@
+MetaVersion: 1
+MarketplaceDetails {
+  Id: "a9c070ab57974db483e20cf020169000"
+  OwnerAccountId: "93d6eaf2514940a08c5481a4c03c1ee3"
+  OwnerName: "CommanderFoo"
+  Version: "1.3.0"
+}
+AssetIdsOriginalToNew {
+  key: 492114152827880978
+  value: 880090206917536735
+}
+AssetIdsOriginalToNew {
+  key: 749741102254742034
+  value: 14838823057626120091
+}
+AssetIdsOriginalToNew {
+  key: 878888552064284504
+  value: 10337164696843797488
+}
+AssetIdsOriginalToNew {
+  key: 1011343072688044724
+  value: 7429195091472780232
+}
+AssetIdsOriginalToNew {
+  key: 1028874171765522488
+  value: 174787207158720714
+}
+AssetIdsOriginalToNew {
+  key: 2352361025444816776
+  value: 10411070611047096187
+}
+AssetIdsOriginalToNew {
+  key: 7988312611630981157
+  value: 2589856466297554512
+}
+AssetIdsOriginalToNew {
+  key: 10184849708620809770
+  value: 10371532936047545787
+}
+AssetIdsOriginalToNew {
+  key: 10898540908769460787
+  value: 6081891824221271079
+}
+AssetIdsOriginalToNew {
+  key: 10983521451438916341
+  value: 8715174926616024526
+}
+AssetIdsOriginalToNew {
+  key: 12362369972949462592
+  value: 17966220932048208479
+}
+AssetIdsOriginalToNew {
+  key: 14126860588135532366
+  value: 7804124176074753432
+}
+AssetIdsOriginalToNew {
+  key: 14492602871788498919
+  value: 241926187810349333
+}
+AssetIdsOriginalToNew {
+  key: 16622261663679835299
+  value: 7949519732935388822
+}
+AssetIdsOriginalToNew {
+  key: 16764789136515339087
+  value: 1814562789857501403
+}
